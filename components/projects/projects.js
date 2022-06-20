@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from "next/link";
 
-export default function Projects({project}) {
+export default function Projects({key,project}) {
 
   console.log(project)
   const imgUrl = project.cover.external.url
@@ -20,6 +20,7 @@ export default function Projects({project}) {
                     <Image
                         className="rounded-t-xl" 
                         src={imgUrl}
+                        alt="cover img"
                         width="100%"
                         height="50%"
                         layout="responsive"
