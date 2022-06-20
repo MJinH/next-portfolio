@@ -10,7 +10,7 @@ export default function Hero() {
             </h1>
             <p className="mb-8 leading-relaxed">Intellectually curios individual with a passion for learning new technologies and a strong interest in software development and UI/3D modeling. I am a highly motivated and willing to leran new skills. Seeking a Software internship position.</p>
             <div className="flex justify-center">
-                <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Projects</button>
             </div>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
