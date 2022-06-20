@@ -35,7 +35,7 @@ export default function Projects({key,project}) {
                 <span className="text-slate-500 dark:text-slate-300">{description}</span>
                 <div className="tags flex">
                     {tags.map((tag) => (
-                        <span className={`tag text-slate-500 dark:text-slate-300 px-1.5 mr-3 bg-sky-200 dark:bg-sky-600 rounded text-sm`}>{tag.name}</span>
+                        <span key={tag.id} className={`tag text-slate-500 dark:text-slate-300 px-1.5 mr-3 bg-sky-200 dark:bg-sky-600 rounded text-sm`}>{tag.name}</span>
                     ))}
                 </div>
                 <div className="flex">
