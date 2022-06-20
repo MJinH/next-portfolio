@@ -4,7 +4,6 @@ import Link from "next/link";
 
 export default function Projects({key,project}) {
 
-  console.log(project)
   const imgUrl = project.cover.external.url
   const description = project.properties.Description.rich_text[0].plain_text
   const name = project.properties.Name.title[0].plain_text
