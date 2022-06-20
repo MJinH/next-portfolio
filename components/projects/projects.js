@@ -18,7 +18,8 @@ export default function Projects({key,project}) {
             <Link href={link}>
                 <div className="proejct-top cursor-pointer">
                     <Image
-                        className="rounded-t-xl" 
+                        className="rounded-t-xl"
+                        key={key} 
                         src={imgUrl}
                         alt="cover img"
                         width="100%"
